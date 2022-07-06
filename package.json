@@ -1,7 +1,7 @@
 {
-  "name": "vue-admin",
+  "name": "vue3-pinia-ts-template",
   "version": "0.0.1",
-  "description": "一个基于vue3+typescript+pinia的后台管理系统",
+  "description": "一个基于vue3+vue-router+pinia+typescript+less+webpack的模板",
   "main": "./src/main.ts",
   "sideEffects": [
     "*.css",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/left0ver/vue-admin.git"
+    "url": "git+https://github.com/dq-cli-template/vue3-pinia-ts-template.git"
   },
   "keywords": [
     "vue-admin"
@@ -31,9 +31,9 @@
   "author": "leftover",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/left0ver/vue-admin/issues"
+    "url": "https://github.com/dq-cli-template/vue3-pinia-ts-template.git/issues"
   },
-  "homepage": "https://github.com/left0ver/vue-admin#readme",
+  "homepage": "https://github.com/dq-cli-template/vue3-pinia-ts-template.git#readme",
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@babel/preset-env": "^7.18.6",
