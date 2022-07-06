@@ -1,0 +1,25 @@
+{
+  // 使用prettier格式化代码以及保存之后自动格式化
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  // 保存之后eslint和stylelint会自动fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.validate": ["javascript", "vue", "html"],
+  // "[vue]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // 对less，css，scss文件进行检查
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "less", "postcss", "vue", "scss", "sass"],
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

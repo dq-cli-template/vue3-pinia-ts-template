@@ -1,0 +1,9 @@
+*.sh     eol=lf
+*.js     eol=lf
+*.ts    eol=lf
+*.vue     eol=lf
+*.json     eol=lf
+*.less     eol=lf
+*.css     eol=lf
+*.html     eol=lf
+*.env     eol=lf

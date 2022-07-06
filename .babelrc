@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // 使用core-js@3进行polyfill
+        "useBuiltIns": "usage", // 告诉预设包我们需要自定义
+        "corejs": 3 // 配置 corejs 的版本
+      }
+    ],
+    [
+      "@babel/preset-typescript",
+      {
+        // 表示每个文件都应该被解析为 TS、TSX 或没有 JSX 歧义的 TS，不然不能使用babel打包在vue里的ts或者tsx
+        "allExtensions": true
+      }
+    ]
+  ]
+}
