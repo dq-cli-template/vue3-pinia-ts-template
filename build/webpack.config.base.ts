@@ -100,9 +100,6 @@ const baseConfig: webpack.Configuration = {
     new VueLoaderPlugin(),
     // 显示打包进度
     new ProgressPlugin(),
-    new webpack.DllReferencePlugin({
-      manifest: path.resolve(__dirname, '../', dllPath, 'vue-manifest.json'),
-    }),
   ],
 }
 
