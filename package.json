@@ -6,7 +6,8 @@
   "sideEffects": [
     "*.css",
     "*.less",
-    "*.scss"
+    "*.scss",
+    "*.vue"
   ],
   "husky": {
     "hooks": {
